@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/averche/vault/api"
 	hclog "github.com/hashicorp/go-hclog"
 	vaultjwt "github.com/hashicorp/vault-plugin-auth-jwt"
 	logicalKv "github.com/hashicorp/vault-plugin-secrets-kv"
+	"github.com/hashicorp/vault/api"
 	credAppRole "github.com/hashicorp/vault/builtin/credential/approle"
 	"github.com/hashicorp/vault/command/agent"
 	vaulthttp "github.com/hashicorp/vault/http"

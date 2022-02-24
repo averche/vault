@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/averche/vault/api"
 	"github.com/go-test/deep"
+	"github.com/hashicorp/vault/api"
 	credLdap "github.com/hashicorp/vault/builtin/credential/ldap"
 	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
 	"github.com/hashicorp/vault/helper/testhelpers/ldap"

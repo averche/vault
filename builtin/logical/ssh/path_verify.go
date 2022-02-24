@@ -3,7 +3,7 @@ package ssh
 import (
 	"context"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/framework"
 	"github.com/hashicorp/vault/sdk/logical"
 )

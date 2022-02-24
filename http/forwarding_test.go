@@ -16,8 +16,8 @@ import (
 
 	"golang.org/x/net/http2"
 
-	"github.com/averche/vault/api"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
+	"github.com/hashicorp/vault/api"
 	credCert "github.com/hashicorp/vault/builtin/credential/cert"
 	"github.com/hashicorp/vault/builtin/logical/transit"
 	"github.com/hashicorp/vault/sdk/helper/consts"

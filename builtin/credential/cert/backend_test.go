@@ -29,9 +29,9 @@ import (
 
 	"golang.org/x/net/http2"
 
-	"github.com/averche/vault/api"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	log "github.com/hashicorp/go-hclog"
+	"github.com/hashicorp/vault/api"
 	vaulthttp "github.com/hashicorp/vault/http"
 
 	rootcerts "github.com/hashicorp/go-rootcerts"

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/helper/consts"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"

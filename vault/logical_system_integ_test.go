@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/averche/vault/api"
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-hclog"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/builtin/plugin"
 	"github.com/hashicorp/vault/helper/namespace"
 	vaulthttp "github.com/hashicorp/vault/http"

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/builtin/credential/userpass"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/logical"

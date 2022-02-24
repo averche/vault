@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 )
 
 type AzureAuth struct {

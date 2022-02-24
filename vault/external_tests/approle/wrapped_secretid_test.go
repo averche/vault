@@ -3,8 +3,8 @@ package approle
 import (
 	"testing"
 
-	"github.com/averche/vault/api"
 	log "github.com/hashicorp/go-hclog"
+	"github.com/hashicorp/vault/api"
 	credAppRole "github.com/hashicorp/vault/builtin/credential/approle"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/logical"

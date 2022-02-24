@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/averche/vault/api"
 	pwd "github.com/hashicorp/go-secure-stdlib/password"
+	"github.com/hashicorp/vault/api"
 )
 
 type CLIHandler struct{}

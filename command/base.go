@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/command/token"
 	"github.com/hashicorp/vault/helper/namespace"
 	"github.com/mitchellh/cli"

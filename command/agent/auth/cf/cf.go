@@ -9,9 +9,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/averche/vault/api"
 	cf "github.com/hashicorp/vault-plugin-auth-cf"
 	"github.com/hashicorp/vault-plugin-auth-cf/signatures"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/command/agent/auth"
 )
 

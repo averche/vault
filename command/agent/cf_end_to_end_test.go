@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/averche/vault/api"
 	hclog "github.com/hashicorp/go-hclog"
 	credCF "github.com/hashicorp/vault-plugin-auth-cf"
 	"github.com/hashicorp/vault-plugin-auth-cf/testing/certificates"
 	cfAPI "github.com/hashicorp/vault-plugin-auth-cf/testing/cf"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/command/agent/auth"
 	agentcf "github.com/hashicorp/vault/command/agent/auth/cf"
 	"github.com/hashicorp/vault/command/agent/sink"

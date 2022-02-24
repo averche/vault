@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 )
 
 // testHTTPServer creates a test HTTP server that handles requests until

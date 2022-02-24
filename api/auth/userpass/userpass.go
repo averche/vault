@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 )
 
 type UserpassAuth struct {
