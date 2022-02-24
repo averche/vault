@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-secure-stdlib/password"
-	"github.com/hashicorp/vault/api"
 )
 
 type CLIHandler struct {

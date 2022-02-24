@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 )
 
 type KubernetesAuth struct {

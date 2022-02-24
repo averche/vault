@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-secure-stdlib/strutil"
 	autopilot "github.com/hashicorp/raft-autopilot"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/namespace"
 	"github.com/hashicorp/vault/helper/testhelpers"
 	"github.com/hashicorp/vault/helper/testhelpers/teststorage"

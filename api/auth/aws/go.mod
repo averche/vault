@@ -1,4 +1,4 @@
-module github.com/hashicorp/vault/api/auth/aws
+module github.com/averche/vault/api/auth/aws
 
 go 1.16
 
@@ -7,5 +7,5 @@ require (
 	github.com/hashicorp/go-hclog v0.16.2
 	github.com/hashicorp/go-secure-stdlib/awsutil v0.1.6
 	github.com/hashicorp/go-uuid v1.0.2
-	github.com/hashicorp/vault/api v1.3.1
+	github.com/averche/vault/api v1.3.1
 )

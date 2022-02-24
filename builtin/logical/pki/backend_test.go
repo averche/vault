@@ -31,11 +31,11 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
+	"github.com/averche/vault/api"
+	auth "github.com/averche/vault/api/auth/userpass"
 	"github.com/fatih/structs"
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-secure-stdlib/strutil"
-	"github.com/hashicorp/vault/api"
-	auth "github.com/hashicorp/vault/api/auth/userpass"
 	"github.com/hashicorp/vault/builtin/credential/userpass"
 	logicaltest "github.com/hashicorp/vault/helper/testhelpers/logical"
 	vaulthttp "github.com/hashicorp/vault/http"

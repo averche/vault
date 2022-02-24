@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/testhelpers/docker"
 	"github.com/hashicorp/vault/internalshared/configutil"
 )

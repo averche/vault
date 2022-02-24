@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/averche/vault/api"
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/audit"
 	"github.com/hashicorp/vault/builtin/audit/file"
 	"github.com/hashicorp/vault/builtin/logical/transit"

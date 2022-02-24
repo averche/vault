@@ -3,7 +3,7 @@ package identity
 import (
 	"testing"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/logical"
 	"github.com/hashicorp/vault/vault"

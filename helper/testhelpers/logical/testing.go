@@ -11,8 +11,8 @@ import (
 
 	log "github.com/hashicorp/go-hclog"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/namespace"
 	"github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/helper/logging"

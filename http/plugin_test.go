@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/averche/vault/api"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
 	bplugin "github.com/hashicorp/vault/builtin/plugin"
 	"github.com/hashicorp/vault/sdk/helper/consts"
 	"github.com/hashicorp/vault/sdk/helper/pluginutil"

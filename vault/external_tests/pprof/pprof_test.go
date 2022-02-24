@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/vault/api"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/internalshared/configutil"
 	"github.com/hashicorp/vault/vault"

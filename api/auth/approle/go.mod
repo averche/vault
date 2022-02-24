@@ -1,5 +1,5 @@
-module github.com/hashicorp/vault/api/auth/approle
+module github.com/averche/vault/api/auth/approle
 
 go 1.16
 
-require github.com/hashicorp/vault/api v1.3.1
+require github.com/averche/vault/api v1.3.1

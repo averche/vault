@@ -4,8 +4,8 @@ import (
 	"path"
 	"strconv"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/builtin/logical/transit"
 	"github.com/hashicorp/vault/helper/testhelpers/teststorage"
 	"github.com/hashicorp/vault/http"
