@@ -27,19 +27,6 @@ func (c *Client) KVWithMountPoint(mountPoint string) *KV {
 	}
 }
 
-func (c *KV) Get(path string) (*KVSecret, error) {
-	// todo: this is POC only, we should probably use lower level func here
-	secret, err := c.c.Logical().Read(fmt.Sprintf("%s/data/%s", c.MountPoint, path))
-	if err != nil {
-		return nil, err
-	}
-	if secret == nil {
-		return nil, nil
-	}
-
-	return extractDataAndMetadata(secret)
-}
-
 func (c *KV) Put(path string, data map[string]interface{}) (*KVSecret, error) {
 	// todo: this is POC only, we should probably use lower level func here
 	secret, err := c.c.Logical().Write(
@@ -48,6 +35,23 @@ func (c *KV) Put(path string, data map[string]interface{}) (*KVSecret, error) {
 			"data": data,
 		},
 	)
+	if err != nil {
+		return nil, err
+	}
+	if secret == nil {
+		return nil, nil
+	}
+
+	return &KVSecret{
+		Data:     nil,
+		Metadata: secret.Data,
+		Raw:      secret,
+	}, nil
+}
+
+func (c *KV) Get(path string) (*KVSecret, error) {
+	// todo: this is POC only, we should probably use lower level func here
+	secret, err := c.c.Logical().Read(fmt.Sprintf("%s/data/%s", c.MountPoint, path))
 	if err != nil {
 		return nil, err
 	}
