@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/averche/vault/api"
 	hclog "github.com/hashicorp/go-hclog"
 	log "github.com/hashicorp/go-hclog"
+	"github.com/hashicorp/vault/api"
 	credAppRole "github.com/hashicorp/vault/builtin/credential/approle"
 	"github.com/hashicorp/vault/command/agent/auth"
 	agentapprole "github.com/hashicorp/vault/command/agent/auth/approle"

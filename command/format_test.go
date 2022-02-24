@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/averche/vault/api"
 	"github.com/ghodss/yaml"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/helper/jsonutil"
 )
 

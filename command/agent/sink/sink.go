@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/averche/vault/api"
 	hclog "github.com/hashicorp/go-hclog"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/dhutil"
 	"github.com/hashicorp/vault/sdk/helper/jsonutil"
 )

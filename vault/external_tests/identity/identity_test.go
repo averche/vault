@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-secure-stdlib/strutil"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/helper/ldaputil"
 	"github.com/hashicorp/vault/sdk/logical"
 

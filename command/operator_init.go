@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/pgpkeys"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"

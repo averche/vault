@@ -3,7 +3,7 @@ package identity
 import (
 	"testing"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 	ldaphelper "github.com/hashicorp/vault/helper/testhelpers/ldap"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/logical"

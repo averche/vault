@@ -3,8 +3,8 @@ package http
 import (
 	"testing"
 
-	"github.com/averche/vault/api"
 	kv "github.com/hashicorp/vault-plugin-secrets-kv"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/logical"
 	"github.com/hashicorp/vault/vault"
 )

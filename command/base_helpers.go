@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/averche/vault/api"
 	kvbuilder "github.com/hashicorp/go-secure-stdlib/kv-builder"
+	"github.com/hashicorp/vault/api"
 	"github.com/kr/text"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/mitchellh/mapstructure"

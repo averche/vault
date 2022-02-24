@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/averche/vault/api"
 	uuid "github.com/hashicorp/go-uuid"
+	"github.com/hashicorp/vault/api"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/logical"
 	"github.com/hashicorp/vault/vault"

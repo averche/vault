@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 )
 
 // mockProxier is a mock implementation of the Proxier interface, used for testing purposes.

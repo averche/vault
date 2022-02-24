@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/averche/vault/api"
 	"github.com/go-test/deep"
 	logicalKv "github.com/hashicorp/vault-plugin-secrets-kv"
+	"github.com/hashicorp/vault/api"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/logical"
 	"github.com/hashicorp/vault/vault"

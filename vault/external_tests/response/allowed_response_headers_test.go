@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/framework"
 	"github.com/hashicorp/vault/sdk/logical"

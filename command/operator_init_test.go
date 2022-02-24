@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/averche/vault/api"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/pgpkeys"
 	"github.com/hashicorp/vault/vault"
 	"github.com/mitchellh/cli"

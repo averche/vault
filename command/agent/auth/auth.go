@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-hclog"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/helper/jsonutil"
 )
 

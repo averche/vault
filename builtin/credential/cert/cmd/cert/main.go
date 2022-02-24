@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/averche/vault/api"
 	hclog "github.com/hashicorp/go-hclog"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/builtin/credential/cert"
 	"github.com/hashicorp/vault/sdk/plugin"
 )

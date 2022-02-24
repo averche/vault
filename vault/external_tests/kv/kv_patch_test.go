@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/averche/vault/api"
 	logicalKv "github.com/hashicorp/vault-plugin-secrets-kv"
+	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/audit"
 	auditFile "github.com/hashicorp/vault/builtin/audit/file"
 	vaulthttp "github.com/hashicorp/vault/http"
