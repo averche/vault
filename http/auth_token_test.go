@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/vault/vault"
 )
 

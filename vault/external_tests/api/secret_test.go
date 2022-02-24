@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 )
 
 func TestParseSecret(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 
 	hclog "github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 	vaultcert "github.com/hashicorp/vault/builtin/credential/cert"
 	"github.com/hashicorp/vault/command/agent/auth"
 	agentcert "github.com/hashicorp/vault/command/agent/auth/cert"

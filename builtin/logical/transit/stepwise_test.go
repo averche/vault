@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/averche/vault/api"
 	stepwise "github.com/hashicorp/vault-testing-stepwise"
 	dockerEnvironment "github.com/hashicorp/vault-testing-stepwise/environments/docker"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/sdk/helper/keysutil"
 	"github.com/mitchellh/mapstructure"
 )

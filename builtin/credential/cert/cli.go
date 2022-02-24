@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 	"github.com/mitchellh/mapstructure"
 )
 

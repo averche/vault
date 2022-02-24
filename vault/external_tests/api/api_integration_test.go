@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"testing"
 
+	"github.com/averche/vault/api"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/audit"
 	auditFile "github.com/hashicorp/vault/builtin/audit/file"
 	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"

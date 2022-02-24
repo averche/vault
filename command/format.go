@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/averche/vault/api"
 	"github.com/ghodss/yaml"
-	"github.com/hashicorp/vault/api"
 	"github.com/mitchellh/cli"
 	"github.com/ryanuber/columnize"
 )

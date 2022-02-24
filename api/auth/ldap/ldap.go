@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 )
 
 type LDAPAuth struct {

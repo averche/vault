@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/averche/vault/api"
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/command/agent/auth"
 )
 

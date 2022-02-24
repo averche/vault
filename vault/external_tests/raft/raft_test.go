@@ -17,9 +17,9 @@ import (
 
 	vaultseal "github.com/hashicorp/vault/vault/seal"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/vault/api"
 	credUserpass "github.com/hashicorp/vault/builtin/credential/userpass"
 	"github.com/hashicorp/vault/helper/constants"
 	"github.com/hashicorp/vault/helper/namespace"

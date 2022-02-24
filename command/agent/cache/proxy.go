@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 )
 
 // SendRequest is the input for Proxier.Send.

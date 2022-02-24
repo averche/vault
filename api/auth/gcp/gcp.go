@@ -11,7 +11,7 @@ import (
 
 	"cloud.google.com/go/compute/metadata"
 	credentials "cloud.google.com/go/iam/credentials/apiv1"
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 	credentialspb "google.golang.org/genproto/googleapis/iam/credentials/v1"
 )
 

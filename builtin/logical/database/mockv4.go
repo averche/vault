@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/averche/vault/api"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
 	v4 "github.com/hashicorp/vault/sdk/database/dbplugin"
 )
 

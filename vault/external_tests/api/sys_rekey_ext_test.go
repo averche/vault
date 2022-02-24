@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/testhelpers"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/helper/logging"

@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/averche/vault/api"
 	"github.com/go-test/deep"
-	"github.com/hashicorp/vault/api"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/helper/certutil"
 	"github.com/hashicorp/vault/sdk/logical"

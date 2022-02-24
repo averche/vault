@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/helper/namespace"
 	"github.com/hashicorp/vault/sdk/helper/jsonutil"
 	"github.com/hashicorp/vault/sdk/helper/logging"

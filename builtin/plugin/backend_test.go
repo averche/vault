@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/averche/vault/api"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/builtin/plugin"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/helper/consts"

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 	postgreshelper "github.com/hashicorp/vault/helper/testhelpers/postgresql"
 )
 

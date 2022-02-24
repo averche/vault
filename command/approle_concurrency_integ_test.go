@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/averche/vault/api"
+	auth "github.com/averche/vault/api/auth/approle"
 	log "github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/vault/api"
-	auth "github.com/hashicorp/vault/api/auth/approle"
 	credAppRole "github.com/hashicorp/vault/builtin/credential/approle"
 	vaulthttp "github.com/hashicorp/vault/http"
 	"github.com/hashicorp/vault/sdk/logical"

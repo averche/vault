@@ -11,7 +11,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/hashicorp/vault/api"
+	"github.com/averche/vault/api"
 	"github.com/hashicorp/vault/builtin/logical/ssh"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/mapstructure"

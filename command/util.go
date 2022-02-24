@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/averche/vault/api"
 	"github.com/fatih/color"
-	"github.com/hashicorp/vault/api"
 	"github.com/hashicorp/vault/command/config"
 	"github.com/hashicorp/vault/command/token"
 	"github.com/mitchellh/cli"
