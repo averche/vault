@@ -1,4 +1,4 @@
-module github.com/averche/vault
+module github.com/hashicorp/vault
 
 go 1.17
 
