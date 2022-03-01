@@ -4,6 +4,22 @@ import (
 	"fmt"
 )
 
+// type KVVersion struct {
+// 	Version        int
+// 	CreatedTime    time.Time
+// 	DeletionTime   time.Time
+// 	Destroyed      bool
+// 	CustomMetadata map[string]interface{}
+// }
+
+// type KVMetadata struct {
+// 	CasRequired    bool
+// 	CurrentTime    time.Time
+// 	CustomMetadata map[string]interface{}
+
+// 	Versions map[int]KVVersion
+// }
+
 type KV struct {
 	c          *Client
 	MountPoint string
